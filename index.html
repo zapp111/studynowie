@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Study Planner</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="app-layout">
+      <aside id="sidebar" class="sidebar">
+        <div class="sidebar-header">
+          <h2>Study Planner</h2>
+        </div>
+
+        <nav class="sidebar-nav">
+          <button class="nav-item active" data-page="dashboard" type="button">
+            <span class="nav-icon">🏠</span>
+            <span>Dashboard</span>
+          </button>
+
+          <button class="nav-item" data-page="study-sessions" type="button">
+            <span class="nav-icon">📚</span>
+            <span>Study Sessions</span>
+          </button>
+
+          <button class="nav-item" data-page="question-bank" type="button">
+            <span class="nav-icon">📝</span>
+            <span>Question Bank</span>
+          </button>
+
+          <button class="nav-item" data-page="previous-year-papers" type="button">
+            <span class="nav-icon">📄</span>
+            <span>Previous Year Papers</span>
+          </button>
+
+          <button class="nav-item" data-page="progress" type="button">
+            <span class="nav-icon">📊</span>
+            <span>Progress</span>
+          </button>
+
+          <button class="nav-item" data-page="completed-sessions" type="button">
+            <span class="nav-icon">✅</span>
+            <span>Completed Sessions</span>
+          </button>
+
+          <button class="nav-item" data-page="settings" type="button">
+            <span class="nav-icon">⚙</span>
+            <span>Settings</span>
+          </button>
+
+          <button
+            id="admin-nav"
+            class="nav-item"
+            data-page="admin"
+            type="button"
+            style="display:none;"
+          >
+            <span class="nav-icon">🛠</span>
+            <span>Admin Panel</span>
+          </button>
+        </nav>
+
+
+        <!-- User Account Area -->
+        <div id="user-panel">
+
+          <span id="current-user"></span>
+
+          <button id="logout-btn" type="button">
+            Logout
+          </button>
+
+        </div>
+
+
+      </aside>
+
+      <div id="sidebar-backdrop" class="sidebar-backdrop"></div>
+
+      <div class="main-panel">
+        <header class="app-header">
+          <button id="menu-toggle" class="menu-toggle" type="button" aria-label="Toggle navigation">☰</button>
+
+          <div>
+            <p class="eyebrow">Study Planner For Joyuu Baby</p>
+            <h1 id="page-title">Dashboard</h1>
+          </div>
+
+          <div id="current-date" class="current-date"></div>
+        </header>
+
+
+        <main class="app-shell">
+
+          <section id="dashboard-page" class="page active">
+            <div class="card dashboard">
+              <div class="section-heading">
+                <div>
+                  <p class="eyebrow">Dashboard</p>
+                  <h2 id="greeting">Hello</h2>
+                </div>
+              </div>
+
+              <div id="dashboard-summary" class="summary-grid"></div>
+            </div>
+          </section>
+
+
+          <section id="study-sessions-page" class="page">
+            <div class="card session-view">
+              <div id="session-list" class="session-list"></div>
+              <div id="session-header" class="session-header" style="display:none;"></div>
+              <div id="session-content" class="subject-grid" style="display:none;"></div>
+            </div>
+          </section>
+
+
+          <section id="question-bank-page" class="page placeholder-page">
+            <div class="card placeholder-card">
+              <h2>Question Bank</h2>
+              <p>Coming Soon</p>
+            </div>
+          </section>
+
+
+          <section id="previous-year-papers-page" class="page placeholder-page">
+            <div class="card placeholder-card">
+              <h2>Previous Year Papers</h2>
+              <p>Coming Soon</p>
+            </div>
+          </section>
+
+
+          <section id="progress-page" class="page">
+            <div class="card progress-page">
+
+              <div class="section-heading">
+                <div>
+                  <p class="eyebrow">Your Progress</p>
+                  <h2>Study Overview</h2>
+                </div>
+              </div>
+
+              <div id="overall-progress"></div>
+
+              <div id="session-progress-list"></div>
+
+              <div id="quiz-progress-list"></div>
+
+            </div>
+          </section>
+
+
+          <section id="completed-sessions-page" class="page placeholder-page">
+            <div class="card placeholder-card">
+              <h2>Completed Sessions</h2>
+              <p>Coming Soon</p>
+            </div>
+          </section>
+
+
+          <section id="settings-page" class="page placeholder-page">
+            <div class="card placeholder-card">
+              <h2>Settings</h2>
+              <p>Coming Soon</p>
+            </div>
+          </section>
+
+          <section id="admin-page" class="page">
+
+              <div id="admin-home">
+
+                  <div class="card">
+
+                      <div class="section-heading">
+
+                          <div>
+
+                              <p class="eyebrow">Admin Panel</p>
+
+                              <h2>Content Management</h2>
+
+                          </div>
+
+                      </div>
+
+                      <div class="admin-grid">
+
+                          <button
+                              id="open-session-builder"
+                              class="admin-card"
+                              type="button">
+
+                              <span>📚</span>
+
+                              <h3>Create Session</h3>
+
+                              <p>Create a new study session.</p>
+
+                          </button>
+
+                          <button
+                              class="admin-card"
+                              type="button">
+
+                              <span>📝</span>
+
+                              <h3>Create Quiz</h3>
+
+                              <p>Coming Soon</p>
+
+                          </button>
+
+                          <button
+                              class="admin-card"
+                              type="button">
+
+                              <span>📋</span>
+
+                              <h3>Manage Sessions</h3>
+
+                              <p>Coming Soon</p>
+
+                          </button>
+
+                          <button
+                              class="admin-card"
+                              type="button">
+
+                              <span>📈</span>
+
+                              <h3>Student Progress</h3>
+
+                              <p>Coming Soon</p>
+
+                          </button>
+
+                      </div>
+
+                  </div>
+
+              </div>
+
+
+
+              <div
+                  id="session-builder"
+                  style="display:none;">
+
+                  <div class="card">
+
+                      <div class="section-heading">
+
+                          <div>
+
+                              <p class="eyebrow">Admin</p>
+
+                              <h2>Create Study Session</h2>
+
+                          </div>
+
+                      </div>
+
+                      <div class="builder-form">
+
+                          <div class="builder-row">
+
+                              <div class="builder-field">
+
+                                  <label>Session Number</label>
+
+                                  <input
+                                      id="builder-session-number"
+                                      type="number"
+                                      placeholder="1">
+
+                              </div>
+
+                              <div class="builder-field">
+
+                                  <label>Date</label>
+
+                                  <input
+                                      id="builder-date"
+                                      type="date">
+
+                              </div>
+
+                          </div>
+
+                          <div id="subjects-container"></div>
+
+                          <button
+                              id="add-subject-btn"
+                              class="primary-btn"
+                              type="button">
+
+                              + Add Subject
+
+                          </button>
+
+                          <button
+                              id="save-session-btn"
+                              class="primary-btn"
+                              type="button">
+
+                              💾 Save Session
+
+                          </button>
+
+                      </div>
+
+                  </div>
+
+              </div>
+
+          </section>
+
+        </main>
+
+      </div>
+
+    </div>
+
+
+    <div id="quiz-modal" class="modal hidden" aria-hidden="true">
+
+      <div class="modal-backdrop" data-action="close-quiz"></div>
+
+      <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="quiz-title">
+
+        <div class="modal-header">
+          <h3 id="quiz-title">Subject Quiz</h3>
+
+          <button type="button" class="modal-close" data-action="close-quiz">
+            ×
+          </button>
+
+        </div>
+
+        <div id="quiz-body" class="quiz-body"></div>
+
+      </div>
+
+    </div>
+
+
+    <div id="login-overlay" class="login-overlay">
+
+      <div class="login-card">
+
+        <h2>Welcome 🌸</h2>
+
+        <p>Please login to continue</p>
+
+
+        <input 
+          id="username-input" 
+          type="text" 
+          placeholder="Username"
+        >
+
+
+        <div class="password-container">
+
+          <input 
+            id="password-input" 
+            type="password" 
+            placeholder="Password"
+          >
+
+          <span id="toggle-password">
+            👁
+          </span>
+
+        </div>
+
+
+        <button id="login-btn">
+          Login
+        </button>
+
+
+        <p id="login-error"></p>
+
+      </div>
+
+    </div>
+
+
+    <script type="module" src="js/app.js"></script>
+
+  </body>
+</html>

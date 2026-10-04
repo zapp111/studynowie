@@ -1,0 +1,414 @@
+[
+  {
+  "id": "session-1",
+  "sessionNumber": 1,
+  "date": "2026-07-27",
+  "focusTopics": [
+    "Real Numbers",
+    "Chemical Reactions and Equations",
+    "Nationalism in Europe",
+    "A Letter to God",
+    "सूरदास के पद"
+  ],
+  "subjects": [
+    {
+      "name": "Mathematics",
+      "chapterName": "Real Numbers",
+      "focusTopic": "Euclid's Division Lemma, Fundamental Theorem of Arithmetic, prime factorisation, HCF and LCM",
+      "checklist": [
+        "Watch Lecture",
+        "Read NCERT",
+        "Solve NCERT Exercise",
+        "Solve Practice Questions"
+      ],
+      "resources": [
+        { "label": "YouTube Lecture", "url": "https://youtu.be/MX1iSpb4tRE?si=WXmEKRMFk4feikt1" },
+        { "label": "NCERT PDF", "url": "https://drive.google.com/file/d/1Rl0udKqUl7E_Tjwa7JClvV9T3qbsjGOO/view?usp=drive_link" },
+        { "label": "Notes", "url": "https://www.learncbse.in/real-numbers-cbse-notes-class-10-maths/" },
+        { "label": "Extra Questions", "url": "https://www.pw.live/school-prep/exams/important-questions-class-10-maths-chapter-1" }
+      ]
+    },
+
+    {
+      "name": "Science",
+      "chapterName": "Chemical Reactions and Equations",
+      "focusTopic": "Chemical reactions, writing chemical equations, balancing equations and types of chemical reactions",
+      "checklist": [
+        "Watch Lecture",
+        "Read NCERT",
+        "Solve NCERT Exercise",
+        "Solve Practice Questions"
+      ],
+      "resources": [
+        { "label": "YouTube Lecture", "url": "https://youtu.be/gQ-X9wV8TXQ?si=d_yOJrwne6MNLRNt" },
+        { "label": "NCERT PDF", "url": "https://drive.google.com/file/d/1NV7vJrairDAYNsIH2jE4mM77UDStCvoT/view?usp=drive_link" },
+        { "label": "Notes", "url": "https://www.learncbse.in/chemical-reactions-and-equations-class-10-notes/" },
+        { "label": "Extra Questions", "url": "https://www.learncbse.in/chemical-reactions-and-equations-chapter-wise-important-questions-class-10-science/" }
+      ]
+    },
+
+    {
+      "name": "Social Science",
+      "chapterName": "Nationalism in Europe",
+      "focusTopic": "French Revolution, rise of nationalism, nation-states and the growth of nationalist movements in Europe",
+      "checklist": [
+        "Watch Lecture",
+        "Read NCERT",
+        "Make Short Notes",
+        "Solve Practice Questions"
+      ],
+      "resources": [
+        { "label": "YouTube Lecture", "url": "https://www.youtube.com/live/JXeryAV8JNE?si=cx5X346UgoWsxDPJ" },
+        { "label": "NCERT PDF", "url": "https://drive.google.com/file/d/1n2eYAQ3U8hp9HSXgAOn9MHbv8oZwpJwQ/view?usp=drive_link" },
+        { "label": "Notes", "url": "https://www.learncbse.in/class-10-history-chapter-1-notes/" },
+        { "label": "Extra Questions", "url": "https://www.learncbse.in/the-rise-of-nationalism-in-europe-cbse-history-extra-questions/" }
+      ]
+    },
+
+    {
+      "name": "English",
+      "chapterName": "A Letter to God",
+      "focusTopic": "Read the chapter, understand characters, plot, themes, vocabulary and textbook questions",
+      "checklist": [
+        "Read Chapter",
+        "Learn Difficult Words",
+        "Solve NCERT Questions",
+        "Solve Practice Questions"
+      ],
+      "resources": [
+        { "label": "YouTube Lecture", "url": "https://youtu.be/F8y66IbMs9w?si=K879RPJXwIfczLKb" },
+        { "label": "NCERT PDF", "url": "https://drive.google.com/file/d/1lnlqnvZBHUcWibgmeoqbYmNxNqO44S7u/view?usp=drive_link" },
+        { "label": "Notes", "url": "https://www.learncbse.in/a-letter-to-god-summary/" },
+        { "label": "Extra Questions", "url": "https://www.thestudypath.com/class-10/extra-questions/english/first-flight/chapter-1-a-letter-to-god/" }
+      ]
+    },
+
+    {
+      "name": "Hindi",
+      "chapterName": "सूरदास के पद (क्षितिज भाग 2)",
+      "focusTopic": "Read the poem, understand भावार्थ, learn शब्दार्थ and practice textbook questions",
+      "checklist": [
+        "Read Chapter",
+        "Understand Meaning",
+        "Learn Important Words",
+        "Solve NCERT Questions"
+      ],
+      "resources": [
+        { "label": "YouTube Lecture", "url": "https://youtu.be/z8tYCbjeGKM?si=TurLirG_8phDdZHr" },
+        { "label": "NCERT PDF", "url": "https://drive.google.com/file/d/1EKY9Ris7i-G8vEbMSK5M_zR5QsfFcDFc/view?usp=drive_link" },
+        { "label": "Notes", "url": "https://www.evidyarthi.in/cbse/class-10/hindi-class-10/%E0%A4%AA%E0%A4%A6-kshitij-hindi-class-10th-summary" },
+        { "label": "Extra Questions", "url": "https://www.evidyarthi.in/cbse/class-10/hindi-class-10/important-questions-chapter-1-class-10-hindi-kshitij-cbse-board" }
+      ]
+    }
+   ]
+  }, 
+  {
+    "id": "session-2",
+    "sessionNumber": 2,
+    "date": "2026-07-28",
+    "focusTopics": [
+      "Real Numbers Practice and Applications",
+      "Chemical Reactions and Equations Revision",
+      "Nationalism in Europe Revision",
+      "Nelson Mandela: Long Walk to Freedom",
+      "नेताजी का चश्मा"
+    ],
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "chapterName": "Real Numbers - Part 2",
+        "focusTopic": "Revision of Euclid's Division Lemma, Fundamental Theorem of Arithmetic, irrational numbers, HCF and LCM problems and advanced applications",
+        "checklist": [
+          "Revise Concepts",
+          "Solve NCERT Exercise",
+          "Practice Important Questions",
+          "Attempt Chapter Test"
+        ],
+        "resources": [
+          { "label": "YouTube Lecture", "url": "https://youtu.be/MX1iSpb4tRE?si=WXmEKRMFk4feikt1" },
+          { "label": "NCERT PDF", "url": "https://drive.google.com/file/d/1Rl0udKqUl7E_Tjwa7JClvV9T3qbsjGOO/view?usp=drive_link" },
+          { "label": "Notes", "url": "https://www.learncbse.in/real-numbers-cbse-notes-class-10-maths/" },
+          { "label": "Extra Questions", "url": "https://www.pw.live/school-prep/exams/important-questions-class-10-maths-chapter-1" }
+        ]
+      },
+
+      {
+        "name": "Science",
+        "chapterName": "Chemical Reactions and Equations - Part 2",
+        "focusTopic": "Revision of chemical equations, balancing reactions, combination, decomposition, displacement, double displacement reactions, oxidation and reduction",
+        "checklist": [
+          "Revise Reactions",
+          "Practice Balancing Equations",
+          "Solve NCERT Exercise",
+          "Solve Practice Questions"
+        ],
+        "resources": [
+          { "label": "YouTube Lecture", "url": "https://youtu.be/gQ-X9wV8TXQ?si=d_yOJrwne6MNLRNt" },
+          { "label": "NCERT PDF", "url": "https://drive.google.com/file/d/1NV7vJrairDAYNsIH2jE4mM77UDStCvoT/view?usp=drive_link" },
+          { "label": "Notes", "url": "https://www.learncbse.in/chemical-reactions-and-equations-class-10-notes/" },
+          { "label": "Extra Questions", "url": "https://www.learncbse.in/chemical-reactions-and-equations-chapter-wise-important-questions-class-10-science/" }
+        ]
+      },
+
+      {
+        "name": "Social Science",
+        "chapterName": "Nationalism in Europe - Part 2",
+        "focusTopic": "Revision of French Revolution, liberal nationalism, unification of Germany and Italy, and important events of European nationalism",
+        "checklist": [
+          "Revise Timeline",
+          "Learn Important Dates",
+          "Make Short Notes",
+          "Solve Practice Questions"
+        ],
+        "resources": [
+          { "label": "YouTube Lecture", "url": "https://www.youtube.com/live/JXeryAV8JNE?si=cx5X346UgoWsxDPJ" },
+          { "label": "NCERT PDF", "url": "https://drive.google.com/file/d/1n2eYAQ3U8hp9HSXgAOn9MHbv8oZwpJwQ/view?usp=drive_link" },
+          { "label": "Notes", "url": "https://www.learncbse.in/class-10-history-chapter-1-notes/" },
+          { "label": "Extra Questions", "url": "https://www.learncbse.in/the-rise-of-nationalism-in-europe-cbse-history-extra-questions/" }
+        ]
+      },
+
+      {
+        "name": "English",
+        "chapterName": "Nelson Mandela: Long Walk to Freedom",
+        "focusTopic": "Understanding Nelson Mandela's journey, apartheid, themes of freedom, vocabulary and textbook questions",
+        "checklist": [
+          "Read Chapter",
+          "Learn Difficult Words",
+          "Solve NCERT Questions",
+          "Solve Practice Questions"
+        ],
+        "resources": [
+          { "label": "YouTube Lecture", "url": "https://youtu.be/On56TWN81eg?si=4ddmQx2Bbd2xY6ps" },
+          { "label": "NCERT PDF", "url": "https://drive.google.com/file/d/1nmVCNRvssvkHlqckAZCGUNjC0_5T51oX/view?usp=drive_link" },
+          { "label": "Notes", "url": "https://www.learncbse.in/nelson-mandela-long-walk-to-freedom-summary/" },
+          { "label": "Extra Questions", "url": "https://www.thestudypath.com/class-10/extra-questions/english/first-flight/chapter-2-nelson-mandela-long-walk-to-freedom/" }
+        ]
+      },
+
+      {
+        "name": "Hindi",
+        "chapterName": "नेताजी का चश्मा (क्षितिज भाग 2)",
+        "focusTopic": "कहानी का अध्ययन, पात्रों का विश्लेषण, व्यंग्य, भावार्थ, शब्दार्थ और प्रश्न अभ्यास",
+        "checklist": [
+          "Read Chapter",
+          "Understand Meaning",
+          "Learn Important Words",
+          "Solve NCERT Questions"
+        ],
+        "resources": [
+          { "label": "YouTube Lecture", "url": "https://youtu.be/JrFk0IA0od0?si=0CB85a3WXlOlaf7Q" },
+          { "label": "NCERT PDF", "url": "https://drive.google.com/file/d/1nGCnIEwDTKYRBhWEVHy_MSQRwRFSzr3k/view?usp=drive_link" },
+          { "label": "Notes", "url": "https://www.evidyarthi.in/cbse/class-10/hindi-class-10/summary-class-10-chapter-7-hindi-kshitij-cbse-board" },
+          { "label": "Extra Questions", "url": "https://www.evidyarthi.in/cbse/class-10/hindi-class-10/important-questions-chapter-7-class-10-hindi-kshitij-cbse-board" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "session-3",
+    "sessionNumber": 3,
+    "date": "2026-07-29",
+    "focusTopics": [
+      "Polynomials",
+      "Acids, Bases and Salts",
+      "Resources and Development",
+      "Two Stories About Flying",
+      "राम-लक्ष्मण-परशुराम संवाद"
+    ],
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "chapterName": "Polynomials - Part 1",
+        "focusTopic": "Introduction to polynomials, degree, types of polynomials, coefficients, terms and graphical representation of linear polynomials",
+        "checklist": [
+          "Watch Lecture",
+          "Read NCERT",
+          "Solve NCERT Exercise",
+          "Solve Practice Questions"
+        ],
+        "resources": [
+          { "label": "YouTube Lecture", "url": "" },
+          { "label": "NCERT PDF", "url": "" },
+          { "label": "Notes", "url": "" },
+          { "label": "Extra Questions", "url": "" }
+        ]
+      },
+
+      {
+        "name": "Science",
+        "chapterName": "Acids, Bases and Salts - Part 1",
+        "focusTopic": "Introduction to acids and bases, indicators, chemical properties, pH scale and everyday applications",
+        "checklist": [
+          "Watch Lecture",
+          "Read NCERT",
+          "Solve NCERT Exercise",
+          "Solve Practice Questions"
+        ],
+        "resources": [
+          { "label": "YouTube Lecture", "url": "" },
+          { "label": "NCERT PDF", "url": "" },
+          { "label": "Notes", "url": "" },
+          { "label": "Extra Questions", "url": "" }
+        ]
+      },
+
+      {
+        "name": "Social Science",
+        "chapterName": "Resources and Development - Part 1",
+        "focusTopic": "Types of resources, classification of resources, sustainable development and resource planning in India",
+        "checklist": [
+          "Watch Lecture",
+          "Read NCERT",
+          "Make Short Notes",
+          "Solve Practice Questions"
+        ],
+        "resources": [
+          { "label": "YouTube Lecture", "url": "" },
+          { "label": "NCERT PDF", "url": "" },
+          { "label": "Notes", "url": "" },
+          { "label": "Extra Questions", "url": "" }
+        ]
+      },
+
+      {
+        "name": "English",
+        "chapterName": "Two Stories About Flying",
+        "focusTopic": "Part I - His First Flight and Part II - The Black Aeroplane: understanding the stories, themes, vocabulary and textbook questions",
+        "checklist": [
+          "Read Chapter",
+          "Learn Difficult Words",
+          "Solve NCERT Questions",
+          "Solve Practice Questions"
+        ],
+        "resources": [
+          { "label": "YouTube Lecture", "url": "" },
+          { "label": "NCERT PDF", "url": "" },
+          { "label": "Notes", "url": "" },
+          { "label": "Extra Questions", "url": "" }
+        ]
+      },
+
+      {
+        "name": "Hindi",
+        "chapterName": "राम-लक्ष्मण-परशुराम संवाद (क्षितिज भाग 2)",
+        "focusTopic": "काव्य का अध्ययन, प्रसंग, भावार्थ, पात्रों का परिचय, शब्दार्थ तथा पाठ्यपुस्तक के महत्वपूर्ण प्रश्न",
+        "checklist": [
+          "Read Chapter",
+          "Understand Meaning",
+          "Learn Important Words",
+          "Solve NCERT Questions"
+        ],
+        "resources": [
+          { "label": "YouTube Lecture", "url": "" },
+          { "label": "NCERT PDF", "url": "" },
+          { "label": "Notes", "url": "" },
+          { "label": "Extra Questions", "url": "" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "session-4",
+    "sessionNumber": 4,
+    "date": "2026-07-30",
+    "focusTopics": [
+      "Polynomials Revision and Applications",
+      "Acids, Bases and Salts Revision",
+      "Resources and Development Revision",
+      "A Triumph of Surgery",
+      "माता का आँचल"
+    ],
+    "subjects": [
+      {
+        "name": "Mathematics",
+        "chapterName": "Polynomials - Part 2",
+        "focusTopic": "Revision of types of polynomials, zeroes of a polynomial, relationship between zeroes and coefficients, graphical representation and important NCERT questions",
+        "checklist": [
+          "Revise Concepts",
+          "Solve NCERT Exercise",
+          "Practice Important Questions",
+          "Attempt Chapter Test"
+        ],
+        "resources": [
+          { "label": "YouTube Lecture", "url": "" },
+          { "label": "NCERT PDF", "url": "" },
+          { "label": "Notes", "url": "" },
+          { "label": "Extra Questions", "url": "" }
+        ]
+      },
+
+      {
+        "name": "Science",
+        "chapterName": "Acids, Bases and Salts - Part 2",
+        "focusTopic": "Revision of pH scale, neutralisation reactions, salts, baking soda, washing soda, bleaching powder, plaster of Paris and important NCERT questions",
+        "checklist": [
+          "Revise Concepts",
+          "Practice Important Reactions",
+          "Solve NCERT Exercise",
+          "Attempt Chapter Test"
+        ],
+        "resources": [
+          { "label": "YouTube Lecture", "url": "" },
+          { "label": "NCERT PDF", "url": "" },
+          { "label": "Notes", "url": "" },
+          { "label": "Extra Questions", "url": "" }
+        ]
+      },
+
+      {
+        "name": "Social Science",
+        "chapterName": "Resources and Development - Part 2",
+        "focusTopic": "Revision of land resources, land degradation, soil types, soil erosion, soil conservation and important NCERT questions",
+        "checklist": [
+          "Revise Chapter",
+          "Learn Important Facts",
+          "Make Short Notes",
+          "Solve Practice Questions"
+        ],
+        "resources": [
+          { "label": "YouTube Lecture", "url": "" },
+          { "label": "NCERT PDF", "url": "" },
+          { "label": "Notes", "url": "" },
+          { "label": "Extra Questions", "url": "" }
+        ]
+      },
+
+      {
+        "name": "English",
+        "chapterName": "A Triumph of Surgery",
+        "focusTopic": "Understanding the story, character sketch of Tricki, themes, vocabulary and textbook questions",
+        "checklist": [
+          "Read Chapter",
+          "Learn Difficult Words",
+          "Solve NCERT Questions",
+          "Solve Practice Questions"
+        ],
+        "resources": [
+          { "label": "YouTube Lecture", "url": "" },
+          { "label": "NCERT PDF", "url": "" },
+          { "label": "Notes", "url": "" },
+          { "label": "Extra Questions", "url": "" }
+        ]
+      },
+
+      {
+        "name": "Hindi",
+        "chapterName": "माता का आँचल (क्षितिज भाग 2)",
+        "focusTopic": "पाठ का अध्ययन, लेखक परिचय, भावार्थ, प्रमुख घटनाएँ, शब्दार्थ तथा पाठ्यपुस्तक के महत्वपूर्ण प्रश्न",
+        "checklist": [
+          "Read Chapter",
+          "Understand Meaning",
+          "Learn Important Words",
+          "Solve NCERT Questions"
+        ],
+        "resources": [
+          { "label": "YouTube Lecture", "url": "" },
+          { "label": "NCERT PDF", "url": "" },
+          { "label": "Notes", "url": "" },
+          { "label": "Extra Questions", "url": "" }
+        ]
+      }
+    ]
+  } 
+]
